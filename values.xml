@@ -8,7 +8,7 @@
         follows the standard naming convention (camelCase)
         : Do not leave an empty field here, the game won't work
     -->
-    <intFrameRate>45</intFrameRate>
+    <intFrameRate>30</intFrameRate>
     <intScreenWidth>700</intScreenWidth>
     <intScreenHeight>500</intScreenHeight>
 
