@@ -12,7 +12,7 @@
     <intScreenWidth>700</intScreenWidth>
     <intScreenHeight>500</intScreenHeight>
 
-    <floatGameSpeed>45.0</floatGameSpeed>
+    <floatGameSpeed>30.0</floatGameSpeed>
     <intPauseTimeout>1</intPauseTimeout>
 
     <intCellSize>10</intCellSize>
