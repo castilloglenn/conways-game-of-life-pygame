@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<values>
+    <!-- 
+        WARNING: Do not add sub elements beyond this 
+        the system will not read it.
+        : To declare a values.xml variable, prefix the name to either
+        int or float data type, then proceed to put the name of it that
+        follows the standard naming convention (camelCase)
+        : Do not leave an empty field here, the game won't work
+    -->
+    <intFrameRate>45</intFrameRate>
+    <intScreenWidth>700</intScreenWidth>
+    <intScreenHeight>500</intScreenHeight>
+
+    <floatGameSpeed>45.0</floatGameSpeed>
+    <intPauseTimeout>1</intPauseTimeout>
+
+    <intCellSize>10</intCellSize>
+    <intCellDecayRate>20</intCellDecayRate>
+    <intCellMinimumState>100</intCellMinimumState>
+
+    <intFontSize>10</intFontSize>
+    <intFontShadow>2</intFontShadow>
+
+    <!-- 
+        WARNING: Internal game mechanics variables here,
+        return to default values if the game brokes
+
+        Default value is 23 because 2-3 neighbors must be alive to survive a cell 
+        To set a value, indicate all number from the specified range, example:
+        if you want to input 2-5, input these: 2345
+    -->
+
+    <intAliveAdjacentCellRequirement>23</intAliveAdjacentCellRequirement>
+
+    <!-- Default value is 3 because 3 alive adjacent cells is required to make a dead cell alive -->
+    <intDeadAdjacentCellRequirement>3</intDeadAdjacentCellRequirement>
+</values>

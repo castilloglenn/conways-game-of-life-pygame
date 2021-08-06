@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+    <!-- 
+        WARNING: Do not add sub elements beyond this 
+        the system will not read it.
+    -->
+    <gameTitle>Conway's Game of Life</gameTitle>
+    <gameBackgroundColor>black</gameBackgroundColor>
+
+    <fontForegroundColor>white</fontForegroundColor>
+    <fontBackgroundColor>black</fontBackgroundColor>
+
+    <cellColor>white</cellColor>
+</strings>
